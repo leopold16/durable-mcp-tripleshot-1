@@ -1,0 +1,4 @@
+dev run --no-generate-watch
+dev run --python --application=server.py --working-directory=.
+dev run --watch=**/*.py
+

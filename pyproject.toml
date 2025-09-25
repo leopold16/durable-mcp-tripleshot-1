@@ -1,0 +1,11 @@
+[project]
+name = "durable-mcp-tripleshot-1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.11"
+dependencies = [
+    "durable-mcp>=0.3.1",
+    "mcp[cli]>=1.13.1",
+    "reboot>=0.37.1",
+]
