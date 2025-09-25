@@ -2,6 +2,10 @@
 
 Minimal [Durable MCP](https://docs.reboot.dev/get_started/python_mcp/) server exposing Tripleshot public API as MCP tools.
 
+## Demo Video with Claude
+
+[![Durable MCP Tripleshot Demo](https://img.youtube.com/vi/QrX4vmgqYZQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=QrX4vmgqYZQ)
+
 ## Setup
 
 ```bash
@@ -23,6 +27,29 @@ Run server:
 rbt dev run
 # MCP available at http://127.0.0.1:9991/mcp
 ```
+
+## Setup in Claude
+
+To use this MCP server with Claude Desktop, add the following configuration to your Claude desktop config file:
+
+**Location:** `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS)
+
+```json
+{
+  "mcpServers": {
+    "durable-mcp-tripleshot-1": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "http://127.0.0.1:9991/mcp/"
+      ]
+    }
+  }
+}
+```
+
+Make sure the server is running (`rbt dev run`) before launching Claude Desktop.
 
 ## Tools
 
