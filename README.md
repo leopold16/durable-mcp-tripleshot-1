@@ -1,7 +1,3 @@
-Understood — you want something that reads like a real engineer wrote it for other engineers, zero fluff, just what’s needed to get running and hacking. Here’s a **lean, technical README**:
-
----
-
 # durable-mcp-tripleshot
 
 Minimal [Durable MCP](https://docs.reboot.dev/get_started/python_mcp/) server exposing Tripleshot public API as MCP tools.
