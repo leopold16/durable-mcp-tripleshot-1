@@ -4,7 +4,7 @@ Minimal [Durable MCP](https://docs.reboot.dev/get_started/python_mcp/) server ex
 
 ## Demo Video with Claude
 
-[![Durable MCP Tripleshot Demo](https://img.youtube.com/vi/QrX4vmgqYZQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=QrX4vmgqYZQ)
+[![Durable MCP Tripleshot Demo](https://img.youtube.com/vi/QrX4vmgqYZQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=G1iP-r4HU-w)
 
 ## Setup
 
